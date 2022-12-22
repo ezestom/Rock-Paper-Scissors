@@ -1,29 +1,37 @@
-*{
+* {
    margin: 0;
    padding: 0;
    box-sizing: border-box;
    font-family: sans-serif;
 }
 
-footer{
-   text-align: center;
-   padding: 10px;
-   font-size: 12px;
+body {
+   display: flex;
+   width: 100vw;
+   height: 100vh;
+   width: 100vw;
+   align-items: center;
+   justify-content: center;
+   background-image: url('./img/istockphoto-1271192332-612x612.jpg');
+   resize: both;
+   overflow: auto;
+   background-repeat: space;
+   background-size: 150px;
 }
 
-
-button{
-   background-color: #eeee;
+button {
+   background-color: rgba(238, 238, 238, 0.933);
    border: 2px solid black;
    margin: 5px;
    border-radius: 20px;
 }
-button:hover{
-   background-color: #c1c1bf;
+
+button:hover {
+   background-color: #f8e8d1;
    cursor: pointer;
 }
 
-.container{
+.container {
    max-width: 420px;
    height: 100vh;
    max-height: 745px;
@@ -37,30 +45,30 @@ button:hover{
    border-radius: 20px;
 }
 
-h1{
+h1 {
    font-size: 35px;
    text-align: center;
    padding: 20px;
 }
 
-#result{
-  text-align: center;
+#result {
+   text-align: center;
 }
 
-#result img{
+#result img {
    width: 40%;
 }
 
-#start-text{
+#start-text {
    font-size: 36px;
    padding: 20px;
 }
 
-#group-btn{
+#group-btn {
    display: flex;
    width: 100%;
 }
 
-#group-btn > button > img{
+#group-btn>button>img {
    width: 100%;
 }
